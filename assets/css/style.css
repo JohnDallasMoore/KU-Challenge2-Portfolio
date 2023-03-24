@@ -1,0 +1,24 @@
+header {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 10px 8px;
+}
+
+.hero {
+
+}
+article {
+    border: 2px solid black;
+}
+
+footer {
+    text-align: center;
+}
