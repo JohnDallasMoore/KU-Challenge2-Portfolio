@@ -13,7 +13,7 @@ nav ul li{
 }
 
 .hero {
-
+    background-image: url("dallaspic.jpg");
 }
 article {
     border: 2px solid black;
@@ -21,4 +21,9 @@ article {
 
 footer {
     text-align: center;
+}
+
+#about {
+    display: inline-flex;
+    flex-flow: row wrap;
 }
