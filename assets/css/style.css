@@ -1,53 +1,81 @@
+* {
+    margin: 0;
+}
+
 header {
     display: flex;
     flex-flow: row wrap;
     align-items: center;
     justify-content: space-between;
-    background-color: darkgray;
+    background-color: rgb(81, 80, 80);
 }
 header h1 {
     background-color: lightblue;
+    color: rgb(81, 80, 80);
+    width: 265px;
+    height: 40px;
 }
 nav ul li{
     display: inline-flex;
     flex-flow: row wrap;
     justify-content: space-around;
     margin: 10px 8px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: lightblue;
+    font-size: 22px;
+}
+
+#hero {
+    background-image: url("../images/dallaspic2.png");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    align-items: end;
+    justify-content: end;
     
 }
 
-.hero {
-    background-image: url("../images/dallaspic.jpg");
+.hero-text{
+    color: white;
+    padding-right: 10px;
+    font-size: 35px;
 }
 
 div {
     display: flex;
 }
 
-/* #profilepic {
-    width:300px;
-    height: 150px;
-    float: left;
-    margin-right: 20px;
-} */
+
+#about p {
+    font-size: 18px;
+    padding-left: 10px;
+}
+
 
 .section {
-    margin: 25px 0;
-    padding: 10px 0;
+    padding: 35px 0;
+    padding-left: 10px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: stretch;
-    justify-content: space-between;
 }
 
 .section > h2 {
     flex: 0 0 20%;
     text-align: right;
     padding-right: 15px;
-    border-right: 4px solid black;
+    border-right: 2px solid black;
     line-height: 1.1;
+    font-size: 40px;
 }
+
+
 
 .section > div {
     flex: 0 0 77%;
@@ -66,7 +94,7 @@ div {
 }
 
 .card {
-    border: 2px solid black;
+    border: 3px solid lightblue;
     display: flex; 
     min-height: 150px;
     max-height: 150px;
@@ -76,6 +104,10 @@ div {
     margin: 0.5em;
     text-decoration: none;
     color: black;
+}
+
+.card:hover {
+
 }
 
 .card:first-child {
@@ -89,41 +121,87 @@ div {
     padding: 0 10px;
     background-color: black;
     color: white;
-
+    min-height: fit-content;
 }
 
-.card h3 {
+.card div h3 {
     font-size: 1.6rem;
-    margin-bottom: -15px;
     margin-top: 12px;
 }
-.card p {
+.card div p {
     margin-bottom: 12px;
 }
 
 #surf {
-    background-image: url("../images/surf.jpg");
+    background: url("../images/surf.jpg");
+    background-size: cover;
+    opacity: 0.8;
+}
+
+#surf:hover {
+    opacity: 1;
 }
 
 #led {
-    background-image: url("../images/led.jpg");    
+    background-image: url("../images/led.jpg"); 
+    background-size: cover;
+    opacity: 0.8;   
+}
+
+#led:hover {
+    opacity: 1;
 }
 
 #calc {
     background-image: url("../images/calc.jpg");
+    background-size: cover;
+    opacity: 0.8;
+}
+
+#calc:hover {
+    opacity: 1;
 }
 
 #puzzle {
     background-image: url("../images/puzzle.jpg");
+    background-size: cover;
+    opacity: 0.8;
+}
+
+#puzzle:hover {
+    opacity: 1;
 }
 
 #run {
     background-image: url("../images/run.jpg");
+    background-size: cover;
+    opacity: 0.8;
 }
 
-#about {
+#run:hover {
+    opacity: 1;
+}
+
+#contact-me {
+    flex-wrap: nowrap;
+}
+
+#contact-me ul li {
     display: inline-flex;
     flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin: 10px 8px;
+    border-bottom: 2px solid lightblue;
+}
+
+#contact-me ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#contact {
+    flex: 0 0 100%;
+    margin: auto;
 }
 
 footer {
