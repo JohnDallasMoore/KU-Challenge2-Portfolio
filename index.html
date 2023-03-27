@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="./assets/css/reset.css"> -->
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Portfolio</title>
   </head>
@@ -21,56 +22,76 @@
     </header>
 
     <hero class="hero">
-        <h3 class="hero-text">Full Stack Developer</h3>
+      <h3 class="hero-text">Full Stack Developer</h3>
     </hero>
 
     <main>
-      <section id="about">
-        <h2 >About Me</h2>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum
-          placeat soluta, ipsum nostrum commodi animi repellendus tenetur
-          facere. Deleniti, hic numquam. Labore sint iure pariatur non
-          voluptatem voluptas perspiciatis tempore?
-        </p>
+      <section class="section" id="about">
+        <h2>About Me</h2>
+        <div>
+          <!-- <img id="profilepic" src="./assets/images/dallaspic.jpg"/> -->
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+            repellat excepturi saepe reiciendis facere inventore aperiam
+            repellendus beatae, suscipit, et pariatur nemo, repudiandae at optio
+            natus commodi error odio quos!
+          </p>
+        </div>
       </section>
-      <section>
-        <h2 id="work">Work</h2>
-        <article class="card">
-            <h3>Project Title Main</h3>
-            <p>Technologies Used</p>
-        </article>
-        <article class="card">
-            <h3>Project Title 2</h3>
-            <p>Technologies Used</p>
-        </article>
-        <article class="card">
-            <h3>Project Title 3</h3>
-            <p>Technologies Used</p>
-        </article>
-        <article class="card">
-            <h3>Project Title 4</h3>
-            <p>Technologies Used</p>
-        </article>
-        <article class="card">
-            <h3>Project Title 5</h3>
-            <p>Technologies Used</p>
-        </article>
-       
+      <section class="section" id="work">
+        <h2>Work</h2>
+        <div class="work-container">
+          <a href="#" id="surf" class="card">
+            <div>
+              <h3>Surf Report</h3>
+              <p>MERN Stack</p>
+            </div>
+          </a>
+          <a href="#" id="led" class="card">
+            <div>
+              <h3>LED Wall</h3>
+              <p>Node/IoT</p>
+            </div>
+          </a>
+          <a href="#" id="calc" class="card">
+            <div>
+              <h3>Calculator</h3>
+              <p>React/Javascript/CSS</p>
+            </div>
+          </a>
+          <a href="#" id="puzzle" class="card">
+            <div>
+              <h3>Pastel Puzzles</h3>
+              <p>MERN Stack</p>
+            </div>
+          </a>
+          <a href="#" id="run" class="card">
+            <div>
+              <h3>Run Buddy</h3>
+              <p>HTML/CSS</p>
+            </div>
+          </a>
+        </div>
       </section>
-      <section>
+      <section class="section" id="contact-me">
         <h2>Contact Me</h2>
-        <ul>
+        <div>
+          <ul>
             <li>(785)409-8269</li>
             <li>moore.johndallas@gmail.com</li>
-            <li>GitHub</li>
-            <li>LinkedIn</li>
-        </ul>
+            <li><a href="https://github.com/JohnDallasMoore">GitHub</a></li>
+            <li>
+              <a href="https://www.linkedin.com/in/john-dallas-moore/"
+                >LinkedIn</a
+              >
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 
     <footer>
-        <p>Copyright © Dallas.</p>
+      <p>Copyright © Dallas.</p>
     </footer>
   </body>
 </html>
