@@ -30,7 +30,7 @@ nav ul li a {
 
 #hero {
     background-image: url("../images/dallaspic2.png");
-    height: 500px;
+    height: 60vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -190,7 +190,7 @@ div {
     display: inline-flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
-    margin: 10px 8px;
+    margin: 10px 100px;
     border-bottom: 2px solid lightblue;
 }
 
@@ -200,10 +200,18 @@ div {
 }
 
 #contact {
-    flex: 0 0 100%;
     margin: auto;
+    justify-content: center;
 }
 
+#contact ul {
+    justify-content: space-evenly;
+}
+
+#contact ul li {
+    margin-left: 50px;
+}
 footer {
     text-align: center;
+    margin: 10px;
 }
