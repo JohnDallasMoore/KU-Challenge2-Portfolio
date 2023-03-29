@@ -7,11 +7,11 @@ header {
     flex-flow: row wrap;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(81, 80, 80);
+    background-color: rgb(42, 41, 41);
 }
 header h1 {
     background-color: lightblue;
-    color: rgb(81, 80, 80);
+    color: rgb(42, 41, 41);
     width: 265px;
     height: 40px;
 }
@@ -64,6 +64,10 @@ div {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: stretch;
+}
+
+.section h2 {
+    color: rgb(42, 41, 41);
 }
 
 .section > h2 {
