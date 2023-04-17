@@ -11,7 +11,7 @@ This website provides information regarding my background, work experience and p
 
 <img width="870" alt="Screenshot 2023-03-30 at 10 00 57 PM" src="https://user-images.githubusercontent.com/121253666/229012019-e871d11c-d9e8-4bc7-822e-aa60e61c8a10.png">
 
-[Link to deployment](https://johndallasmoore.github.io/KU-Challenge2-Portfolio/)
+[Link to deployment](https://johndallasmoore.github.io/Portfolio-Challenge/)
 
 ## Credits
 Example Page animation/picture - KU Coding Bootcamp Staff
